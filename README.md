@@ -13,7 +13,9 @@ Follow
 
 # After installing:
 Run commands:
+
 sudo systemctl start warp-svc
+
 warp-cli registration new
 
 Then:
