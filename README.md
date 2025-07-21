@@ -17,6 +17,7 @@ warp-cli registration new
 Then:
 
 chmod +x warp-dpi-bypass.sh
+
 chmod +x warp-dpi-unbypass.sh
 
 The script will run to run
