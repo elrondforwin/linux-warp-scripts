@@ -4,6 +4,7 @@
 
 # Installation:
 Open the console:
+
 Arch Linux: yay -S cloudflare-warp-bin
 
 Debian, Ubuntu, Red hat:
