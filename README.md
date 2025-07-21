@@ -1,6 +1,20 @@
 # linux-warp-scripts
+# NOTE: CLOUDFLARE WARP IS REQUIRED!
 
-Enter the console:
+# Installation:
+Open the console:
+Arch Linux: yay -S cloudflare-warp-bin
+
+Debian, Ubuntu, Red hat:
+https://pkg.cloudflareclient.com/
+Follow
+
+# After installing:
+Run commands:
+sudo systemctl start warp-svc
+warp-cli registration new
+
+Then:
 
 chmod +x warp-dpi-bypass.sh
 chmod +x warp-dpi-unbypass.sh
@@ -12,5 +26,3 @@ The script will run to run
 For Unbypass
 
 ./warp-dpi-unbypass.sh
-
-# NOTE: CLOUDFLARE WARP IS REQUIRED!
