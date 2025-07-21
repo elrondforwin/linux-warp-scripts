@@ -1,5 +1,6 @@
 # linux-warp-scripts
 # NOTE: CLOUDFLARE WARP IS REQUIRED!
+# NOTE 2: USE ONLY FOR EXCEEDING DPI (Deep Packet Inspection)
 
 # Installation:
 Open the console:
