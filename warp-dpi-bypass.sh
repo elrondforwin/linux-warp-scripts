@@ -1,6 +1,12 @@
 #!/bin/bash
 set -e
 
+echo "Check if Cloudflare WARP is installed"
+if ! command -v warp-cli &> /dev/null; then
+    echo "Cloudflare WARP is not installed. Please install it and try later."
+    exit 1
+fi
+
 echo "[1/7] stopping and disabling systemd-resolved"
 sudo systemctl disable --now systemd-resolved
 sudo systemctl mask systemd-resolved
