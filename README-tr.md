@@ -8,7 +8,7 @@
 
 Konsolu açın:
 
-Arch Linux: yay -S cloudflare-warp-bin
+Arch Linux (AUR): yay -S cloudflare-warp-bin
 
 Debian, Ubuntu, Red hat: https://pkg.cloudflareclient.com/ Takip edin.
 
