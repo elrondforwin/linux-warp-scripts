@@ -5,7 +5,7 @@
 # Installation:
 Open the console:
 
-Arch Linux: yay -S cloudflare-warp-bin
+Arch Linux (via AUR): yay -S cloudflare-warp-bin
 
 Debian, Ubuntu, Red hat:
 https://pkg.cloudflareclient.com/
