@@ -26,8 +26,8 @@ chmod +x warp-dpi-unbypass.sh
 
 The script will run to run
 
-./warp-dpi-bypass.sh
+sudo ./warp-dpi-bypass.sh
 
 For Unbypass
 
-./warp-dpi-unbypass.sh
+sudo ./warp-dpi-unbypass.sh
