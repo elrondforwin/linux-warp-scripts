@@ -28,8 +28,8 @@ chmod +x warp-dpi-unbypass.sh
 
 Komut dosyası çalıştırmak için çalışacaktır
 
-./warp-dpi-bypass.sh
+sudo ./warp-dpi-bypass.sh
 
 Unbypass için
 
-./warp-dpi-unbypass.sh
+sudo ./warp-dpi-unbypass.sh
