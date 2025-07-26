@@ -27,3 +27,7 @@ python warp-dpi-bypass.py
 Unbypass için
 
 python warp-dpi-unbypass.py
+
+Güncellemeler:
+
+Bash dili'den Python dili geçildi
