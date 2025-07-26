@@ -20,14 +20,8 @@ warp-cli registration new
 
 Then:
 
-chmod +x warp-dpi-bypass.sh
-
-chmod +x warp-dpi-unbypass.sh
-
-The script will run to run
-
-sudo ./warp-dpi-bypass.sh
+python warp-dpi-bypass.py
 
 For Unbypass
 
-sudo ./warp-dpi-unbypass.sh
+python warp-dpi-unbypass.py
