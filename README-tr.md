@@ -26,4 +26,4 @@ python warp-dpi-bypass.py
 
 Unbypass için
 
-python warp-dpi-unbypass.sh
+python warp-dpi-unbypass.py
