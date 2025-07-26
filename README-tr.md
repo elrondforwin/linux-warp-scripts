@@ -22,14 +22,8 @@ warp-cli registration new
 
 Sonra:
 
-chmod +x warp-dpi-bypass.sh
-
-chmod +x warp-dpi-unbypass.sh
-
-Komut dosyası çalıştırmak için çalışacaktır
-
-sudo ./warp-dpi-bypass.sh
+python warp-dpi-bypass.py
 
 Unbypass için
 
-sudo ./warp-dpi-unbypass.sh
+python warp-dpi-unbypass.sh
