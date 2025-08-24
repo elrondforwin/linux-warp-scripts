@@ -1,33 +1,41 @@
 # linux-warp-scripts
-# NOTE: CLOUDFLARE WARP IS REQUIRED!
-# NOTE 2: USE ONLY FOR EXCEEDING DPI (Deep Packet Inspection)
+
+> [!IMPORTANT]
+> Cloudflare WARP is required!
+
+> [!IMPORTANT]
+> Use only for exceeding DPI (Deep Packet Inspection)
 
 # Installation:
-Open the console:
+Open your preffered terminal:
 
-Arch Linux (via AUR): yay -S cloudflare-warp-bin
+### Arch Linux (via AUR):
+```
+yay -S cloudflare-warp-bin # for yay
+paru -S cloudflare-warp-bin # for paru
+```
 
-Debian, Ubuntu, Red hat:
+### Debian, Ubuntu, Red hat:
+Follow this guide
 https://pkg.cloudflareclient.com/
-Follow
 
-# After installing:
-Run commands:
-
+## After installing WARP:
+Run these commands in order to configure WARP properly:
+```
 sudo systemctl start warp-svc
-
+```
+```
 warp-cli registration new
-
-Then:
-
+```
+Then use the script:
+```
 python warp-dpi-bypass.py
-
-For Unbypass
-
+```
+To revert, simply run:
+```
 python warp-dpi-unbypass.py
+```
 
+### Updates:
 
-
-Updates:
-
-Switched from Bash language to Python language
+- Switched from Bash language to Python language
