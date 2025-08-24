@@ -7,7 +7,7 @@
 > Use only for bypassing DPI (Deep Packet Inspection)
 
 > [!NOTE]
-> Aynı rehberin Türkçesi için [buraya](https://github.com/mustafaby11/linux-warp-scripts/blob/main/README-tr.md) göz atabilirsiniz.
+> Aynı rehberin Türkçesi için [buraya](https://github.com/mustafaby11/linux-warp-scripts/blob/main/README-tr.md) göz atabilirsiniz. (This is for Turkish users)
 
 # Installation:
 Open your preffered terminal:
