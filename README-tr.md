@@ -1,33 +1,41 @@
 # linux-warp-scripts
 
-# NOT: CLOUDFLARE WARP GEREKLİDİR!
+> [!IMPORTANT]
+> Cloudflare WARP gereklidir!
 
-# NOT 2: SADECE DPI'YI (Derin Paket İncelemesi) AŞMAK İÇİN KULLANIN
+> [!IMPORTANT]
+> Sadece DPI'ı (Derin Paket İncelemesi) aşmak için kullanın!
 
 # Kurulum:
+Terminalinizi açın:
 
-Konsolu açın:
+### Arch Linux (AUR): 
+```
+yay -S cloudflare-warp-bin # yay kullananlar için
+paru -S cloudflare-warp-bin # paru kullananlar için (CachyOS vb.)
+```
 
-Arch Linux (AUR): yay -S cloudflare-warp-bin
+### Debian, Ubuntu, Red hat:
+https://pkg.cloudflareclient.com/ rehberini takip edin.
 
-Debian, Ubuntu, Red hat: https://pkg.cloudflareclient.com/ Takip edin.
+### WARP yükledikten sonra:
 
-Yükledikten sonra:
-
-Komutları çalıştırın:
-
+WARP'ı doğru şekilde konfigüre etmek için şu komutları çalıştırın:
+```
 sudo systemctl start warp-svc
-
+```
+```
 warp-cli registration new
-
-Sonra:
-
+```
+Sonra script'i kullanın:
+```
 python warp-dpi-bypass.py
-
-Unbypass için
-
+```
+Değişiklikleri eski haline çevirmek için unbypass scripti:
+```
 python warp-dpi-unbypass.py
+```
 
 Güncellemeler:
 
-Bash dili'den Python dili geçildi
+- Bash dilinden Python diline geçildi.
