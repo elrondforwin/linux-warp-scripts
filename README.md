@@ -4,7 +4,10 @@
 > Cloudflare WARP is required!
 
 > [!IMPORTANT]
-> Use only for exceeding DPI (Deep Packet Inspection)
+> Use only for bypassing DPI (Deep Packet Inspection)
+
+> [!NOTE]
+> Aynı rehberin Türkçesi için [buraya](https://github.com/mustafaby11/linux-warp-scripts/blob/main/README-tr.md) göz atabilirsiniz.
 
 # Installation:
 Open your preffered terminal:
@@ -27,11 +30,11 @@ sudo systemctl start warp-svc
 ```
 warp-cli registration new
 ```
-Then use the script:
+Then use the script
 ```
 python warp-dpi-bypass.py
 ```
-To revert, simply run:
+If you want to revert, simply run
 ```
 python warp-dpi-unbypass.py
 ```
